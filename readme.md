@@ -23,6 +23,17 @@
 </head>
 <body>
 
+        <h2 id="install_button">Bottone Installazione</h2>
+    <p>Clicca sul bottone per aggiungere GeoCaster al tuo account monday.com.</p>
+    
+    <a href="https://auth.monday.com/oauth2/authorize?client_id=4f8bcf23e5516e2994ea27a3188fad66&response_type=install">
+      <img
+        alt="Add to monday.com"
+        height="32"
+        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/Tal/4b5d9548-0598-436e-a5b6-9bc5f29ee1d9_Group12441.png"
+      />
+    </a>
+
     <h1 id="documentazione_geocaster">GeoCaster Documentation</h1>
 
     <h2 id="overview">Overview</h2>
@@ -93,17 +104,6 @@
     <p id="privacy_policy_detail_paragrafo_2">l’unico secret utilizzato è il token JWT generato da monday ed utilizzato, nei limiti temporali definiti da monday stessa, per le comunicazioni con monday, nello specifico nel recupero delle informazioni dell’account che ha inizializzato l’operazione, recupero dei dati presenti nell’item che ha triggerato l’applicazione e la compilazione della colonna di destinazione dell’output. I dati recuperati dall’item trigger vengono inviati a google Maps per la geolocalizzazione. Tutti questi dati non vengono salvati e rimangono nei server per il tempo strettamente necessario alla loro elaborazione. Tutte le comunicazioni in entrata ed in uscita sono criptate secondo TLS version 1.2 and 1.3 using AES 256 encryption (refer to make.com documentation).</p>
 
     <hr>
-    
-    <h2 id="install_button">Bottone Installazione</h2>
-    <p>Clicca sul bottone per aggiungere GeoCaster al tuo account monday.com.</p>
-    
-    <a href="https://auth.monday.com/oauth2/authorize?client_id=4f8bcf23e5516e2994ea27a3188fad66&response_type=install">
-      <img
-        alt="Add to monday.com"
-        height="32"
-        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/Tal/4b5d9548-0598-436e-a5b6-9bc5f29ee1d9_Group12441.png"
-      />
-    </a>
 
 </body>
 </html>
